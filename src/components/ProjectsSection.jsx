@@ -22,13 +22,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Beautiful-Portfolio",
+    title: "SPOTLIGHT",
     description:
-      "Modern portfolio website using React, TailwindCSS, Vite, and Lucide Icons with dark mode support.",
+      " Real‑time social network that runs on iOS, Android, and the web.",
     image: "/projects/project3.png",
-    tags: ["React", "Vite", "Lucide Icons", "Radix UI"],
+    tags: ["ReactNative", "Expo", "Convex", "Clerk"],
     demoUrl: "#",
-    githubUrl: "https://github.com/ValupadasuSaiabbhiram/beautiful-portfolio",
+    githubUrl: "https://github.com/ValupadasuSaiabbhiram/SPOTLIGHT-APP",
   },
 ];
 

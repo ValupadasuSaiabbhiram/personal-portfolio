@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Netflix-Clone",
+    description: "Netflix-Clone app using MERN.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "Node", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ValupadasuSaiabbhiram/netflix-clone",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "PriceWise",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "This site is designed to assist users in making informed decisions. It notifies users when a product drops in price and helps competitors by alerting them when the product is out of stock, all managed through cron jobs.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Headless UI", "Nodemailer", "Next.js", "Cheerio"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ValupadasuSaiabbhiram/pricewise",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Beautiful-Portfolio",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Modern portfolio website using React, TailwindCSS, Vite, and Lucide Icons with dark mode support.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "Vite", "Lucide Icons", "Radix UI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ValupadasuSaiabbhiram/beautiful-portfolio",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ValupadasuSaiabbhiram"
           >
             Check My Github <ArrowRight size={16} />
           </a>

@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "PriceWise",
     description:
-      "This site is designed to assist users in making informed decisions. It notifies users when a product drops in price and helps competitors by alerting them when the product is out of stock, all managed through cron jobs.",
+      "This site helps users track price drops and alerts competitors when products go out of stock, all automated via cron jobs.",
     image: "/projects/project2.png",
     tags: ["Headless UI", "Nodemailer", "Next.js", "Cheerio"],
     demoUrl: "#",

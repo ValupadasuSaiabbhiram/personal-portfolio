@@ -86,13 +86,13 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect with Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/in/sai-abbhiram-valupadasu/" target="_blank">
                                     <Linkedin />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/sai_abbhiram/" target="_blank">
                                     <Instagram />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://x.com/sai_abbhiram" target="_blank">
                                     <Twitter />
                                 </a>
                             </div>
@@ -112,7 +112,7 @@ export const ContactSection = () => {
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
                                 <input type="email" id='email' name="email" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                    placeholder="john@gmail.com" />
+                                    placeholder="example@gmail.com" />
                             </div>
 
                             <div>
